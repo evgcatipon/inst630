@@ -1,0 +1,123 @@
+{
+clothing: [
+{
+code: "male0001",
+gender: "male",
+clothing: "Long Sleeve",
+img: "img/male/longsleeve.png",
+description: ""
+},
+{
+code: "male0002",
+gender: "male",
+clothing: "Shorts",
+img: "img/male/shorts.png",
+description: ""
+},
+{
+code: "male0003",
+gender: "male",
+clothing: "Short Sleeve",
+img: "img/male/shortsleeve.png",
+description: ""
+},
+{
+code: "male0004",
+gender: "male",
+clothing: "Singlet",
+img: "img/male/singlet.png",
+description: ""
+},
+{
+code: "male0005",
+gender: "male",
+clothing: "Tights",
+img: "img/male/tights.png",
+description: ""
+},
+{
+code: "fem0001",
+gender: "female",
+clothing: "Long Sleeve",
+img: "img/female/longsleeve.png",
+description: ""
+},
+{
+code: "fem0002",
+gender: "female",
+clothing: "Shorts",
+img: "img/female/shorts.png",
+description: ""
+},
+{
+code: "fem0003",
+gender: "female",
+clothing: "Short Sleeve",
+img: "img/female/shortsleeve.png",
+description: ""
+},
+{
+code: "fem0004",
+gender: "female",
+clothing: "Singlet",
+img: "img/female/singlet.png",
+description: ""
+},
+{
+code: "fem0005",
+gender: "female",
+clothing: "Tights",
+img: "img/female/tights.png",
+description: ""
+},
+{
+code: "fem0006",
+gender: "female",
+clothing: "Sports Bra",
+img: "img/female/sportsbra.png",
+description: ""
+},
+{
+code: "neu0001",
+gender: "neutral",
+clothing: "Sunscreen",
+img: "img/sunscreen.png",
+description: ""
+},
+{
+code: "neu0002",
+gender: "neutral",
+clothing: "Sunglasses",
+img: "img/sunglasses.png",
+description: ""
+},
+{
+code: "neu0003",
+gender: "neutral",
+clothing: "Visor",
+img: "img/visor.png",
+description: ""
+},
+{
+code: "neu0004",
+gender: "neutral",
+clothing: "Running Hat",
+img: "img/runninghat.png",
+description: ""
+},
+{
+code: "neu0005",
+gender: "neutral",
+clothing: "Gloves",
+img: "img/gloves.png",
+description: ""
+},
+{
+code: "neu0006",
+gender: "neutral",
+clothing: "Jacket",
+img: "img/jacket.png",
+description: ""
+}
+]
+}
