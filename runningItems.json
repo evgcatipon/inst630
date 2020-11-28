@@ -1,14 +1,24 @@
 {
-	"songs": [
-	  {"code" : "pop0123", "title": "Circles", "artist": "Post Malone", "album": "Hollywood's Bleeding" },
-	  { "code": "pop1234", "title": "Graveyard", "artist": "Halsey", "album": "NA" },
-	  { "code": "rnb0901", "title": "Hard Place", "artist": "H.E.R.", "album": "I Used To Know Her" },
-	  { "code": "pop2122", "title": "Maniac", "artist": "Conan Gray", "album": "Maniac" }, 
-	  { "code": "rnb1222", "title": "like i need u", "artist": "keshi", "album": "THE REAPER" },
-	  { "code": "pop2122", "title": "Make It Right", "artist": "BTS, Lauv", "album": "Map of the Soul: Persona" },
-	  { "code": "pop2122", "title": "bad guy", "artist": "Billie Eilish", "album": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?" },
-	  { "code": "hnh1089", "title": "VALENTINO", "artist": "24kGoldn", "album": "VALENTINO" },
-	  { "code": "hnh0981", "title": "Stuck In A Dream", "artist": "Lil Mosey, Gunna", "album": "NA" },
-	  { "code": "hnh1089", "title": "Panini", "artist": "Lil Nas X", "album": "7 EP" }		
+	"clothing": [
+        {"gender": "female", "clothing": "Sports Bra", "img": "img/female/sportsbra.png", "desc": "A good sports bra helps limit movement and provide support when running." },
+        {"gender": "female", "clothing": "Singlet", "img": "img/female/singlet.png", "desc": " " },
+        {"gender": "female", "clothing": "Short Sleeve", "img": "img/female/shortsleeve.png", "desc": " " },
+        {"gender": "female", "clothing": "Long Sleeve", "img": "img/female/longsleeve.png", "desc": " " },
+        {"gender": "female", "clothing": "Shorts", "img": "img/female/shorts.png", "desc": " " },
+        {"gender": "female", "clothing": "Tights", "img": "img/female/tights.png", "desc": " " },
+        
+        {"gender": "male", "clothing": "Singlet", "img": "img/male/singlet.png", "desc": " " },
+        {"gender": "male", "clothing": "Short Sleeve", "img": "img/male/shortsleeve.png", "desc": " " },
+        {"gender": "male", "clothing": "Long Sleeve", "img": "img/male/longsleeve.png", "desc": " " },
+        {"gender": "male", "clothing": "Shorts", "img": "img/male/shorts.png", "desc": " " },
+        {"gender": "male", "clothing": "Tights", "img": "img/male/tights.png", "desc": " " },
+        
+        {"gender": "neutral", "clothing": "jacket", "img": "img/jacket.gif", "desc": " " },
+        {"gender": "neutral", "clothing": "gloves", "img": "img/gloves.png", "desc": " " },
+        {"gender": "neutral", "clothing": "hat", "img": "img/hat.jpg", "desc": " " },
+        {"gender": "neutral", "clothing": "visor", "img": "img/visor.jpg", "desc": " " },
+        {"gender": "neutral", "clothing": "sunglasses", "img": "img/sunglasses.png", "desc": " " },
+        {"gender": "neutral", "clothing": "sunscreen", "img": "img/sunscreen.jpg", "desc": " " }
+	  
 	]
   }  
