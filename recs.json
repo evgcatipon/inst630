@@ -1,81 +1,14 @@
 {
 	"songs": [
-	  {	
-			"code": "fem0060",
-			"gender": "female",
-			"clothing": "Sports Bra",
-			"img": "img/female/sportsbra.png",
-			"desc": " "
-		},
-		{
-			"code": "fem0060",
-			"gender": "female",
-			"clothing": "Singlet",
-			"img": "img/female/singlet.png",
-			"desc": " "
-		},
-		{
-			"code": "fem0060",
-			"gender": "female",
-			"clothing": "Shorts",
-			"img": "img/female/shorts.png",
-			"desc": " "
-		},
-		{
-			"code": "mal0060",
-			"gender": "male",
-			"clothing": "Singlet",
-			"img": "img/male/singlet.png",
-			"desc": " "
-		},
-		{
-			"code": "mal0060",
-			"gender": "male",
-			"clothing": "Shorts",
-			"img": "img/male/shorts.png",
-			"desc": " "
-		},
-		{
-			"code": "mal0050",
-			"gender": "male",
-			"clothing": "Short Sleeve",
-			"img": "img/male/shortsleeve.png",
-			"desc": " "
-		},
-		{
-			"code": "mal0030",
-			"gender": "neutral",
-			"clothing": "gloves",
-			"img": "img/gloves.png",
-			"desc": " "
-		},
-		{
-			"code": "mal0030",
-			"gender": "neutral",
-			"clothing": "hat",
-			"img": "img/hat.jpg",
-			"desc": " "
-		},
-		{
-			"code": "other0010",
-			"gender": "neutral",
-			"clothing": "visor",
-			"img": "img/visor.jpg",
-			"desc": " "
-		},
-		{
-			"code": "sun0010",
-			"gender": "neutral",
-			"clothing": "sunglasses",
-			"img": "img/sunglasses.png",
-			"desc": " "
-		},
-		{
-			"code": "sun0010",
-			"gender": "neutral",
-			"clothing": "sunscreen",
-			"img": "img/sunscreen.jpg",
-			"desc": " "
-		}
-]
+	  {"code" : "pop0123", "title": "Circles", "artist": "Post Malone", "album": "Hollywood's Bleeding" },
+	  { "code": "pop1234", "title": "Graveyard", "artist": "Halsey", "album": "NA" },
+	  { "code": "rnb0901", "title": "Hard Place", "artist": "H.E.R.", "album": "I Used To Know Her" },
+	  { "code": "pop2122", "title": "Maniac", "artist": "Conan Gray", "album": "Maniac" }, 
+	  { "code": "rnb1222", "title": "like i need u", "artist": "keshi", "album": "THE REAPER" },
+	  { "code": "pop2122", "title": "Make It Right", "artist": "BTS, Lauv", "album": "Map of the Soul: Persona" },
+	  { "code": "pop2122", "title": "bad guy", "artist": "Billie Eilish", "album": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?" },
+	  { "code": "hnh1089", "title": "VALENTINO", "artist": "24kGoldn", "album": "VALENTINO" },
+	  { "code": "hnh0981", "title": "Stuck In A Dream", "artist": "Lil Mosey, Gunna", "album": "NA" },
+	  { "code": "hnh1089", "title": "Panini", "artist": "Lil Nas X", "album": "7 EP" }		
+	]
   }  
