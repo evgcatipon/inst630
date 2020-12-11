@@ -1,24 +1,49 @@
 {
 	"clothing": [
-        {"gender": "female", "clothing": "Sports Bra", "img": "img/female/sportsbra.png", "desc": "A good sports bra helps limit movement and provide support when running." },
-        {"gender": "female", "clothing": "Singlet", "img": "img/female/singlet.png", "desc": " " },
-        {"gender": "female", "clothing": "Short Sleeve", "img": "img/female/shortsleeve.png", "desc": " " },
-        {"gender": "female", "clothing": "Long Sleeve", "img": "img/female/longsleeve.png", "desc": " " },
-        {"gender": "female", "clothing": "Shorts", "img": "img/female/shorts.png", "desc": " " },
-        {"gender": "female", "clothing": "Tights", "img": "img/female/tights.png", "desc": " " },
-        
-        {"gender": "male", "clothing": "Singlet", "img": "img/male/singlet.png", "desc": " " },
-        {"gender": "male", "clothing": "Short Sleeve", "img": "img/male/shortsleeve.png", "desc": " " },
-        {"gender": "male", "clothing": "Long Sleeve", "img": "img/male/longsleeve.png", "desc": " " },
-        {"gender": "male", "clothing": "Shorts", "img": "img/male/shorts.png", "desc": " " },
-        {"gender": "male", "clothing": "Tights", "img": "img/male/tights.png", "desc": " " },
-        
-        {"gender": "neutral", "clothing": "jacket", "img": "img/jacket.gif", "desc": " " },
-        {"gender": "neutral", "clothing": "gloves", "img": "img/gloves.png", "desc": " " },
-        {"gender": "neutral", "clothing": "hat", "img": "img/hat.jpg", "desc": " " },
-        {"gender": "neutral", "clothing": "visor", "img": "img/visor.jpg", "desc": " " },
-        {"gender": "neutral", "clothing": "sunglasses", "img": "img/sunglasses.png", "desc": " " },
-        {"gender": "neutral", "clothing": "sunscreen", "img": "img/sunscreen.jpg", "desc": " " }
+        {"code": "fem0060", "gender": "female", "clothing": "Sports Bra", "img": "img/female/sportsbra.png", "desc": "A good sports bra helps limit movement and provide support when running." },
+        {"code": "fem0060", "gender": "female", "clothing": "Singlet", "img": "img/female/singlet.png", "desc": " " },
+		{"code": "fem0060", "gender": "female", "clothing": "Shorts", "img": "img/female/shorts.png", "desc": " " },
+		
+		{"code": "fem0050", "gender": "female", "clothing": "Sports Bra", "img": "img/female/sportsbra.png", "desc": "A good sports bra helps limit movement and provide support when running." },
+        {"code": "fem0050", "gender": "female", "clothing": "Short Sleeve", "img": "img/female/shortsleeve.png", "desc": " " },
+		{"code": "fem0050", "gender": "female", "clothing": "Shorts", "img": "img/female/shorts.png", "desc": " " },
+		
+		{"code": "fem0040", "gender": "female", "clothing": "Sports Bra", "img": "img/female/sportsbra.png", "desc": "A good sports bra helps limit movement and provide support when running." },
+        {"code": "fem0040", "gender": "female", "clothing": "Long Sleeve", "img": "img/female/longsleeve.png", "desc": " " },
+		{"code": "fem0040", "gender": "female", "clothing": "Shorts", "img": "img/female/shorts.png", "desc": " " },
+		{"code": "fem0040", "gender": "neutral", "clothing": "gloves", "img": "img/gloves.png", "desc": " " },
+        {"code": "fem0040", "gender": "neutral", "clothing": "hat", "img": "img/hat.jpg", "desc": " " },
+		
+		{"code": "fem0030", "gender": "female", "clothing": "Sports Bra", "img": "img/female/sportsbra.png", "desc": "A good sports bra helps limit movement and provide support when running." },
+        {"code": "fem0030", "gender": "female", "clothing": "Long Sleeve", "img": "img/female/longsleeve.png", "desc": " " },
+		{"code": "fem0030", "gender": "female", "clothing": "Tights", "img": "img/female/tights.png", "desc": " " },
+		{"code": "fem0030", "gender": "neutral", "clothing": "jacket", "img": "img/jacket.gif", "desc": " " },
+        {"code": "fem0030", "gender": "neutral", "clothing": "gloves", "img": "img/gloves.png", "desc": " " },
+        {"code": "fem0030", "gender": "neutral", "clothing": "hat", "img": "img/hat.jpg", "desc": " " },
+		
+		
+		{"code": "mal0060", "gender": "male", "clothing": "Singlet", "img": "img/male/singlet.png", "desc": " " },
+		{"code": "mal0060", "gender": "male", "clothing": "Shorts", "img": "img/male/shorts.png", "desc": " " },
+		
+		{"code": "mal0050", "gender": "male", "clothing": "Short Sleeve", "img": "img/male/shortsleeve.png", "desc": " " },
+		{"code": "mal0050", "gender": "male", "clothing": "Shorts", "img": "img/male/shorts.png", "desc": " " },
+		
+		{"code": "mal0040", "gender": "male", "clothing": "Long Sleeve", "img": "img/male/longsleeve.png", "desc": " " },
+		{"code": "mal0040", "gender": "male", "clothing": "Shorts", "img": "img/male/shorts.png", "desc": " " },
+		{"code": "mal0040", "gender": "neutral", "clothing": "gloves", "img": "img/gloves.png", "desc": " " },
+        {"code": "mal0040", "gender": "neutral", "clothing": "hat", "img": "img/hat.jpg", "desc": " " },
+		
+		{"code": "mal0030", "gender": "male", "clothing": "Long Sleeve", "img": "img/male/longsleeve.png", "desc": " " },
+		{"code": "mal0030", "gender": "male", "clothing": "Tights", "img": "img/male/tights.png", "desc": " " },
+		{"code": "mal0030", "gender": "neutral", "clothing": "jacket", "img": "img/jacket.gif", "desc": " " },
+        {"code": "mal0030", "gender": "neutral", "clothing": "gloves", "img": "img/gloves.png", "desc": " " },
+        {"code": "mal0030", "gender": "neutral", "clothing": "hat", "img": "img/hat.jpg", "desc": " " },
+		
+		
+		{"code": "other0010", "gender": "neutral", "clothing": "visor", "img": "img/visor.jpg", "desc": " " },
+				
+        {"code": "sun0010", "gender": "neutral", "clothing": "sunglasses", "img": "img/sunglasses.png", "desc": " " },
+        {"code": "sun0010", "gender": "neutral", "clothing": "sunscreen", "img": "img/sunscreen.jpg", "desc": " " }
 	  
 	]
   }  
