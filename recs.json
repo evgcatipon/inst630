@@ -1,0 +1,15 @@
+{
+	"recs": [
+        {"code": "fem0060", "gender": "female", "clothing": "Sports Bra", "img": "img/female/sportsbra.png", "desc": " " },
+        {"code": "fem0060", "gender": "female", "clothing": "Singlet", "img": "img/female/singlet.png", "desc": " " },
+	{"code": "fem0060", "gender": "female", "clothing": "Shorts", "img": "img/female/shorts.png", "desc": " " },
+	{"code": "mal0060", "gender": "male", "clothing": "Singlet", "img": "img/male/singlet.png", "desc": " " },
+	{"code": "mal0060", "gender": "male", "clothing": "Shorts", "img": "img/male/shorts.png", "desc": " " },
+	{"code": "mal0050", "gender": "male", "clothing": "Short Sleeve", "img": "img/male/shortsleeve.png", "desc": " " },
+        {"code": "mal0030", "gender": "neutral", "clothing": "gloves", "img": "img/gloves.png", "desc": " " },
+        {"code": "mal0030", "gender": "neutral", "clothing": "hat", "img": "img/hat.jpg", "desc": " " },
+	{"code": "other0010", "gender": "neutral", "clothing": "visor", "img": "img/visor.jpg", "desc": " " },		
+        {"code": "sun0010", "gender": "neutral", "clothing": "sunglasses", "img": "img/sunglasses.png", "desc": " " },
+        {"code": "sun0010", "gender": "neutral", "clothing": "sunscreen", "img": "img/sunscreen.jpg", "desc": " " }
+	]
+}  
