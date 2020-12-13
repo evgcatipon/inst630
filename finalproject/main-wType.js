@@ -51,7 +51,7 @@ jQuery(function() {
     var zip = $("#zipBox").val();
     if (zip !== '') {
       $.ajax({
-		url: "http://api.openweathermap.org/data/2.5/weather?zip=" + zip + ",us&units=imperial&appid=136d4bb7c2e5b6e8ebf7dfd5dbac069f",
+		url: "https://api.openweathermap.org/data/2.5/weather?zip=" + zip + ",us&units=imperial&appid=136d4bb7c2e5b6e8ebf7dfd5dbac069f",
         dataType: "jsonp",
 		async: false,
         success: function(weatherData) {
