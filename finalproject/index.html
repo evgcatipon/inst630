@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>INST630 Final Project - Running Clothing Generator</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="main-wType.js"></script>
+  </head>
+  <body>
+    <section class="hero">
+     <div class="hero-inner">
+
+      <h1>RuunCloset</h1>
+      <h2 style="margin-bottom: 20px;">Always know what to wear on your run</h2>
+
+    </div>
+  </section>
+      <!-- End Hero -->
+      <div class="container">
+      <h1>RuunCloset</h1>
+      <p>Enter the weather conditions for an upcoming run, and RuunCloset will generate recommendations based on common running advice to dress 10-20 degrees warmer than you normally would. If you don't know the weather right now, enter a US zip code to learn current weather conditions. <br><br>Never skip a run again because you didn't know what to wear!</p>
+          <br>
+    
+      <div class="row">
+          <div class="column" id="leftColumn">
+            <h2 class="formTitle">What should I wear to run?</h2>
+            <p class="form">Fill out the following fields for clothing and accessory recommendations for a run.</p>
+			<form  class="form">
+			<label for="temp" class="formLabel">US Zip Code</label><br> 
+			<input type="text" id="zipBox" name="zipCode" value="20814" class="formZip"/><button type="button" id="zipSend">Get current weather</button>
+			</form>
+			  
+            <form class="form">
+            <label for="gender" class="formLabel">Gender</label><br>
+            <select id="gender"> 
+                <option value="">Choose one</option>
+                <option value="1">Female</option>
+                <option value="2">Male</option>
+            </select>
+            <br>
+            <label for="temp" class="formLabel">Temperature</label><br>    
+            <select id="formTemp"> 
+                <option value="">Choose one</option>
+                <option value="60">60F+</option>
+                <option value="50">50F-59F</option>
+                <option value="40">40F-49F</option>
+                <option value="30">30F-39F</option>
+            </select>
+            <br>
+            <label for="weather" class="formLabel">Weather Condition</label><br>    
+            <select id="weather"> 
+                <option value="">Choose one</option>
+                <option value="sun">Sunny</option>
+                <option value="cloud">Cloudy</option>
+                <option value="rain">Rainy</option>
+            </select>
+			<br><br>
+				
+            <input type="button" value="Submit" id="submit"/>
+            </form>
+              <br>
+            </div>
+          <div class="column" id="rightColumn" style="display:none"><br>
+			  <div id="currentConditions" style="display:none"><p class="currentConditions">Current conditions: <b><span id ="weatherCondition"></span></b>. Great weather for a run in <span id='city'></span>!</p>
+			  </div>
+            <div id="contentTitle" style="display:none"><h2>Run Recommendations</h2>
+            <div class="clothing" id="clothes">
+            </div>
+        </div>
+      </div>
+    </div>
+		  <br><br>
+	  </div>
+      <section class="hero-footer">
+     <div class="hero-inner">
+         <br>Hero image from <a href='https://www.freepik.com/photos/tree'>Tree photo created by wirestock - www.freepik.com</a>.
+    </div>
+  </section>
+  </body>
+</html>

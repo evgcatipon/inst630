@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>INST630 Final Project - Running Clothing Generator</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+      <div class="container">
+      <h1>Running Clothing Generator</h1>
+      <p>The Running Clothing Generator will tell you exactly what to wear for every run. This is based on the common running advice to dress 10-20 degrees warmer than you normally would.
+        Never skip a run again because you didn't know what to wear!</p>
+      <div class="row">
+          <div class="column" id="leftColumn">
+            <h2>What should I wear today to run?</h2>
+            <p class="rec">Fill out the following fields to get clothing recommendations</p>
+              <br>
+            <form class="form">
+                <label for="zip">US Zip Code* </label><br>
+                <input type="text" id="zip" size="5" maxlength="5">
+                <br>
+                <label for="run">Run Type </label><br>
+                <select id="run" name="runtype">
+                    <option value="easy">Easy Run</option>
+                    <option value="workout">Workout</option>
+                    <option value="long">Long Run</option>
+                    <option value="race">Race</option>
+                </select>
+                <br>
+                <label for="gender">Gender </label><br>
+                <select id="gender" name="gender">
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                </select>
+            <br><br>
+                <input type="submit" value="Submit">
+            </form>
+              <br>
+            </div>
+          <div class="column" id="rightColumn">
+              <!--<h2>Clothing Recommendations</h2>-->
+                <p class="rec"><strong>Perfect weather for your <span id="runtype">easy run</span>: </strong><span id ="weather">49F and sunny</span>
+                    <br>
+                    <strong>Feels like: </strong><span id ="feelslike">52F</span>
+                    <br>
+                    <strong>Clothing Recommendations: </strong>
+              </p>
+            <div class="clothing" id="clothes">
+            <div class="card" id="sportsbra">
+                <h3>Sports Bra </h3>
+                <img src="img/female/sportsbra.png">
+              </div>
+            <div class="card" id="top">
+                <h3>Top </h3>
+                <img src="img/female/longsleeve.png">
+            </div>
+            <div class="card" id="bottom">
+                <h3>Bottom </h3>
+                <img src="img/female/shorts.png">
+            </div>
+            <div class="card" id="misc1">
+                <h3>Misc </h3>
+                <img src="img/sunglasses1.png">
+            </div>
+            <div class="card" id="misc2">
+                <h3>Misc </h3>
+                <img src="img/sunscreen.jpg">
+            </div>
+            </div>
+        </div>
+      </div>
+  </body>
+</html>

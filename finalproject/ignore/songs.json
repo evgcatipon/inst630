@@ -1,0 +1,64 @@
+{
+songs: [
+{
+code: "pop0123",
+title: "Circles",
+artist: "Post Malone",
+album: "Hollywood's Bleeding"
+},
+{
+code: "pop1234",
+title: "Graveyard",
+artist: "Halsey",
+album: "NA"
+},
+{
+code: "rnb0901",
+title: "Hard Place",
+artist: "H.E.R.",
+album: "I Used To Know Her"
+},
+{
+code: "pop2122",
+title: "Maniac",
+artist: "Conan Gray",
+album: "Maniac"
+},
+{
+code: "rnb1222",
+title: "like i need u",
+artist: "keshi",
+album: "THE REAPER"
+},
+{
+code: "pop2122",
+title: "Make It Right",
+artist: "BTS, Lauv",
+album: "Map of the Soul: Persona"
+},
+{
+code: "pop2122",
+title: "bad guy",
+artist: "Billie Eilish",
+album: "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?"
+},
+{
+code: "hnh1089",
+title: "VALENTINO",
+artist: "24kGoldn",
+album: "VALENTINO"
+},
+{
+code: "hnh0981",
+title: "Stuck In A Dream",
+artist: "Lil Mosey, Gunna",
+album: "NA"
+},
+{
+code: "hnh1089",
+title: "Panini",
+artist: "Lil Nas X",
+album: "7 EP"
+}
+]
+}
