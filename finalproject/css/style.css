@@ -87,17 +87,19 @@ p.rec {
   margin-right: auto;
   display: flex;
   flex-wrap: wrap;
+ 
 }
 
 /* Float two columns side by side */
 .column {
   float: left;
   padding: 0 10px;
+  
 }
 
 .column#leftColumn {
   background: #93B2E0;
-  margin: 0 1rem 3rem 3rem;
+  margin: 0 1rem 3rem 2.5rem;
   max-width:300px;
   box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
   border-radius: 5px;
@@ -105,16 +107,23 @@ p.rec {
 
 .column#rightColumn {
   background: #d0d0d0;
-  /*padding-bottom: 0rem;
-  margin: 0 0 3rem 2rem;*/
-  width: 60%;
+  padding-bottom: 0rem;
+  margin: 0 0 3rem 2.5rem;
+  max-width: 60%;
   box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
   border-radius: 5px;
+  
 }
 
 #currentConditions{
 	padding: 0px;
 	margin: 0px;
+}
+
+#clothes{
+	-webkit-column-width: 3 200px;
+     -moz-column-width: 3 200px;
+          column-width: 3 200px;
 }
 
 /* Remove extra left and right margins, due to padding in columns */
