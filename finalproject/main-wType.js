@@ -65,8 +65,8 @@ jQuery(function() {
           $("#city").text(city);
 		  $("#weatherCondition").text(apiTemp + '°F and ' + apiCondition);	
 		  //unhide divs
-		  document.getElementById("rightColumn").style.display = "inline";
-		  document.getElementById("currentConditions").style.display = "inline";	
+		  $("#rightColumn").css("display","inline");
+		  $("#currentConditions").css("display","inline");	
         }
       });
     }else {
